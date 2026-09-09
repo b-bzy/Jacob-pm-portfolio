@@ -16,13 +16,30 @@
 
 ## 一、项目索引
 
-| # | 项目 | 类型 | 场景 | 关键成果 |
-|---|---|---|---|---|
-| ① | [AI 语音外呼销售 Agent](https://github.com/b-bzy/ai-voice-sales-agent) | AI 语音产品 · 0→1 | 金融 / 跨境电商外呼 | 跑通 MVP 闭环，建三维评测体系，推动全双工模型自研落地 |
-| ② | [AI-Native 内部协作 Agent](https://github.com/b-bzy/slack-notion-ops-agent) | Agent 工作流 | 跨时区团队运营 | 覆盖 9 类业务，意图路由准确率 95%+ |
-| ③ | [大盘市场情绪 Agent](https://github.com/b-bzy/research-sentiment-agent) | Agent · 金融科技 | 期货交易决策 | 研报多空观点量化打分，情绪指标定期主动推送 |
-| ④ | [期货合规 RAG 问答助手](https://github.com/b-bzy/futures-compliance-rag) | RAG 知识库 | 期货风控合规 | 本地化部署，OCR → 语义切分 → 混合召回 → 重排序全链路 |
-| ⑤ | [分布式光伏指数保险定价](https://github.com/b-bzy/distributed-pv-index-insurance) | 金融建模 · 产品设计 | 绿色金融 / 保险精算 | 国家级大创项目负责人，牵头 20+ 人团队，省级以上奖项 10 余项 |
+### 核心项目（企业实践与学术研究）
+
+| # | 项目 | 仓库状态 | 类型 | 场景 | 关键成果 |
+|---|---|---|---|---|---|
+| ① | [AI 语音外呼销售 Agent](https://github.com/b-bzy/ai-voice-sales-agent) | 🔒 Private | AI 语音产品 · 0→1 | 金融 / 跨境电商外呼 | 跑通 MVP 闭环，建三维评测体系，推动全双工模型自研落地 |
+| ② | [AI-Native 内部协作 Agent](https://github.com/b-bzy/slack-notion-ops-agent) | 🔒 Private | Agent 工作流 | 跨时区团队运营 | 覆盖 9 类业务，意图路由准确率 95%+ |
+| ③ | [大盘市场情绪 Agent](https://github.com/b-bzy/research-sentiment-agent) | 🔒 Private | Agent · 金融科技 | 期货交易决策 | 研报多空观点量化打分，情绪指标定期主动推送 |
+| ④ | [期货合规 RAG 问答助手](https://github.com/b-bzy/futures-compliance-rag) | 🔒 Private | RAG 知识库 | 期货风控合规 | 本地化部署，OCR → 语义切分 → 混合召回 → 重排序全链路 |
+| ⑤ | [分布式光伏指数保险定价](https://github.com/b-bzy/distributed-pv-index-insurance) | 🔓 Public | 金融建模 · 产品设计 | 绿色金融 / 保险精算 | 国家级大创项目负责人，牵头 20+ 人团队，省级以上奖项 10 余项 |
+
+### 个人实践与开源
+
+以下为业余时间独立完成的项目，全部为个人作品，不涉及任何企业资产。
+
+| # | 项目 | 仓库状态 | 类型 | 场景 | 关键内容 |
+|---|---|---|---|---|---|
+| ⑥ | [derivatives-clause-rag](https://github.com/b-bzy/derivatives-clause-rag) | 🔓 Public | RAG 检索系统 | 期权条款查询 | BM25 + BGE-M3 混合检索、**自研 score-aware RRF**、交叉编码器重排，覆盖境内六家交易所与 SGX / HKEX / OCC |
+| ⑦ | [persona-drift-demo](https://github.com/b-bzy/persona-drift-demo) | 🔒 Private | LLM 评测与实验设计 | 多轮对话人格稳定性 | 纯 API 层六层防漂移约束栈 + 漂移度量 v3（dGap / dSlope / dProbe + 显著性检验），A/B 对照实验，零依赖 141 条测试 |
+| ⑧ | [AI-Hotspot-Daily](https://github.com/b-bzy/AI-Hotspot-Daily) | 🔓 Public | Agent 工作流 · 内容运营自动化 | AI 资讯生产 | 5 条流水线全云端运行，抓取 25 个中英文源，日产日报 / 选题榜 / Trending 长文 / 资讯笔记四类产物，零 API 成本 |
+| ⑨ | [FlashIdea](https://github.com/b-bzy/FlashIdea) | 🔓 Public | AI Native 产品 · 全栈 | 灵感捕捉与内容生成 | 「捕捉—处理—管理」核心链路，语音 / 文本输入经 Gemini 2.5 Flash 多模态转写与结构化生成，跑通闪念到深度内容的自动化闭环 |
+| ⑩ | [ai-education-platform](https://github.com/b-bzy/ai-education-platform) | 🔓 Public | 产品设计文档 | 儿童 AI 启蒙教育 | 面向教师 / 家长 / 开发者三类角色的平台实现设计，含架构选型、信息架构、API 与数据模型、安全合规与 MVP 路线图 |
+
+> **🔓 Public** — 可直接点击查看。
+> **🔒 Private** — ① – ④ 源自企业实践，出于保密考量默认私有；⑦ 为尚在迭代中的实验项目。点击会显示 404。**如需查阅，请告知您的 GitHub 账号，我会开通只读访问权限**；也可在面试中直接就设计细节交流。
 
 ---
 
@@ -77,25 +94,19 @@
 | 方向 | 相关项目 |
 |---|---|
 | AI 语音产品设计与评测 | ① |
-| Agent 设计与工作流自动化 | ① ② ③ |
-| RAG 与知识库架构 | ④ |
-| 金融业务理解（期货 / 保险 / 风控合规） | ③ ④ ⑤ |
-| 数据建模与量化分析 | ③ ⑤ |
-| 0 → 1 产品设计与 MVP 验证 | ① ② |
+| Agent 设计与工作流自动化 | ① ② ③ ⑧ |
+| RAG 与知识库架构 | ④ ⑥ |
+| LLM 评测与实验设计 | ① ⑦ |
+| 金融业务理解（期货 / 保险 / 风控合规） | ③ ④ ⑤ ⑥ |
+| 数据建模与量化分析 | ③ ⑤ ⑦ |
+| 0 → 1 产品设计与 MVP 验证 | ① ② ⑨ ⑩ |
 
 **技能标签**：需求分析、信息架构设计、MVP 验证、AI Agent、RAG、LLM 评测、语音产品、数据标注与后训练、金融风控合规、供应链数字化、Python、R、TypeScript、Go、Docker、Git、Claude Code、Codex
 
 ---
 
-## 四、其他公开实践
+## 四、说明
 
-- [derivatives-clause-rag](https://github.com/b-bzy/derivatives-clause-rag) — 期权条款检索系统，BM25 + BGE-M3 混合检索 · 自研 score-aware RRF · 交叉编码器重排，覆盖境内六家交易所与 SGX/HKEX/OCC
-- [AI-Hotspot-Daily](https://github.com/b-bzy/AI-Hotspot-Daily) — AI 热点日报自动抓取与整理
-
----
-
-## 五、说明
-
-① – ④ 源自实习期间的公司项目，已对雇主名称、内部产品代号与业务数据做脱敏处理，公开材料以**产品设计思路与方法论**为主，不包含任何公司数据、客户信息、内部文档与源码。⑤ 为完整可公开的学术研究成果归档。
+① – ④ 源自实习期间的公司项目，已对雇主名称、内部产品代号与业务数据做脱敏处理，公开材料以**产品设计思路与方法论**为主，不包含任何公司数据、客户信息、内部文档与源码。⑤ 为完整可公开的学术研究成果归档，⑥ – ⑩ 为个人独立完成的实践项目。
 
 如需了解项目细节或获取完整简历，请通过投递渠道联系。
