@@ -27,7 +27,7 @@
 | ① | [AI 语音外呼销售 Agent](https://github.com/b-bzy/ai-voice-sales-agent) | 🔒 Private | AI 语音产品 · 0→1 | 金融 / 跨境电商外呼 | 跑通 MVP 闭环，建三维评测体系，推动全双工模型自研落地 |
 | ② | [AI-Native 内部协作 Agent](https://github.com/b-bzy/slack-notion-ops-agent) | 🔒 Private | Agent 工作流 | 跨时区团队运营 | 覆盖 9 类业务，意图路由准确率 95%+ |
 | ③ | [会话数据中台 × Agent 标签数据引擎](https://github.com/b-bzy/conversation-data-hub) | 🔒 Private | 数据中台 · 架构设计 | 多平台销售会话 | 10 张核心表的统一数据模型 + 六维标签体系，把日常对话自动加工成 SFT / DPO / 蒸馏训练集 |
-| ④ | [大盘市场情绪 Agent](https://github.com/b-bzy/research-sentiment-agent) | 🔒 Private | Agent · 金融科技 | 期货交易决策 | 研报多空观点量化打分，情绪指标定期主动推送 |
+| ④ | [大盘市场情绪 Agent](https://github.com/b-bzy/research-sentiment-agent) | 🔓 Public | Agent · 金融科技 | 期货交易决策 | 研报多空观点量化打分，情绪指标定期主动推送 |
 | ⑤ | [期货合规 RAG 问答助手](https://github.com/b-bzy/futures-compliance-rag) | 🔓 Public | RAG 知识库 | 期货风控合规 | 三路混合召回 + **自研 score-aware RRF** + 交叉编码器重排，**Recall@1 0.807（+8.0 pp）**，191 份规则文档、引用精确到条 |
 | ⑥ | [分布式光伏指数保险定价](https://github.com/b-bzy/distributed-pv-index-insurance) | 🔓 Public | 金融建模 · 产品设计 | 绿色金融 / 保险精算 | 国家级大创项目负责人，牵头 20+ 人团队，省级以上奖项 10 余项 |
 | ⑬ | [电商中台业务 Agent（飞书工作流）](https://github.com/b-bzy/paixiaobao-feishu-workflow) | 🔓 Public | Agent 工作流 · 业务中台 | 循环消费电商内部协同 | 飞书 Bot + Base + 妙搭管理端，贯通模板配置、业务发起、审批流转与状态追踪 |
@@ -52,7 +52,7 @@
 | ⑫ | [AI 内容运营与自媒体作品集](https://github.com/b-bzy/ai-content-operations) | 🔓 Public | 内容运营 · 账号主理 | AI 资讯内容生产 | 企业官号（小红书 1091 粉丝，9 视频 + 2 图文）+ 官网 62s IP 品牌短片 + 个人号；沉淀出「选题→检索→成稿→配图→渲染→发布」的内容生产流水线 |
 
 > **🔓 Public** — 可直接点击查看。
-> **🔒 Private** — ① – ④ 源自企业实践，出于保密考量默认私有；⑦ 为尚在迭代中的实验项目。点击会显示 404。**如需查阅，请告知您的 GitHub 账号，我会开通只读访问权限**；也可在面试中直接就设计细节交流。
+> **🔒 Private** — ① – ③ 源自企业实践，出于保密考量默认私有；⑦ 为尚在迭代中的实验项目。点击会显示 404。**如需查阅，请告知您的 GitHub 账号，我会开通只读访问权限**；也可在面试中直接就设计细节交流。
 
 ---
 
