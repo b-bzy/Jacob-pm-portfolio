@@ -1,4 +1,4 @@
-本作品集收录 14 个项目——**核心项目 8 个**（企业实践与学术研究）+ **个人实践 5 个** + **内容运营 1 个**，横跨 **AI 语音产品、Agent 工作流、数据中台与训练数据生产、RAG 知识库、金融量化建模、跨境电商智能客服**六条主线。既有从 0 到 1 的产品设计与架构方案，也有牵头 20+ 人团队完成的两年期学术研究，以及可复现实测的个人开源实现。
+本作品集收录 14 个项目——**核心项目 7 个**（企业实践与学术研究）+ **个人实践 6 个** + **内容运营 1 个**，横跨 **AI 语音产品、Agent 工作流、数据中台与训练数据生产、RAG 知识库、金融量化建模、跨境电商智能客服**六条主线。既有从 0 到 1 的产品设计与架构方案，也有牵头 20+ 人团队完成的两年期学术研究，以及可复现实测的个人开源实现。
 
 📄 **[下载 PDF 版作品集](鲍泽英-AI产品经理-作品集.pdf)** — 内容与本页一致，各项目链接可直接点击跳转，便于随简历投递。
 
@@ -31,7 +31,6 @@
 | ⑤ | [期货合规 RAG 问答助手](https://github.com/b-bzy/futures-compliance-rag) | 🔓 Public | RAG 知识库 | 期货风控合规 | 三路混合召回 + **自研 score-aware RRF** + 交叉编码器重排，**Recall@1 0.807（+8.0 pp）**，191 份规则文档、引用精确到条 |
 | ⑥ | [分布式光伏指数保险定价](https://github.com/b-bzy/distributed-pv-index-insurance) | 🔓 Public | 金融建模 · 产品设计 | 绿色金融 / 保险精算 | 国家级大创项目负责人，牵头 20+ 人团队，省级以上奖项 10 余项 |
 | ⑬ | [电商中台业务 Agent（飞书工作流）](https://github.com/b-bzy/paixiaobao-feishu-workflow) | 🔓 Public | Agent 工作流 · 业务中台 | 循环消费电商内部协同 | 飞书 Bot + Base + 妙搭管理端，贯通模板配置、业务发起、审批流转与状态追踪 |
-| ⑭ | [跨境电商智能客服项目](https://github.com/b-bzy/cross-border-ecommerce-customer-service-demo) | 🔓 Public | AI Agent · 产品设计 | 跨境电商客户服务 | 公开版先沉淀经脱敏的产品方法论与合成示例，持续完善中 |
 
 ### 个人实践与开源
 
@@ -44,6 +43,7 @@
 | ⑨ | [FlashIdea](https://github.com/b-bzy/FlashIdea) | 🔓 Public | AI Native 产品 · 全栈 | 灵感捕捉与内容生成 | 「捕捉—处理—管理」核心链路，语音 / 文本输入经 Gemini 2.5 Flash 多模态转写与结构化生成，跑通闪念到深度内容的自动化闭环 |
 | ⑩ | [ai-education-platform](https://github.com/b-bzy/ai-education-platform) | 🔓 Public | 产品设计文档 | 儿童 AI 启蒙教育 | 面向教师 / 家长 / 开发者三类角色的平台实现设计，含架构选型、信息架构、API 与数据模型、安全合规与 MVP 路线图 |
 | ⑪ | [claude-skills](https://github.com/b-bzy/claude-skills) | 🔓 Public | Agent Skill 工程 | 内容创作 / 会议 / 招聘 / 复盘 | 5 个自用 Claude Agent Skill：卡片排版、标题生成、会议纪要、JD 渲染、成长复盘。共同取舍是**把稳定的格式规范固化进 skill，把需要判断的部分留给模型** |
+| ⑭ | [跨境电商智能客服项目](https://github.com/b-bzy/cross-border-ecommerce-customer-service-demo) | 🔓 Public | AI Agent · 产品设计 | 跨境电商客户服务 | 公开版先沉淀经脱敏的产品方法论与合成示例，持续完善中 |
 
 ### 内容运营与自媒体
 
